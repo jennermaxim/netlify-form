@@ -1,0 +1,27 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  background-color: #1d3465;
+  border-radius: 10px;
+}
+
+form > * {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+form button{
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+
+form button:hover{
+    background-color: rgb(24, 24, 153);
+}
