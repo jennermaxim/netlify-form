@@ -28,3 +28,7 @@ form button{
 form button:hover{
     background-color: rgb(24, 24, 153);
 }
+
+.developer{
+  margin-top: 20px;
+}
