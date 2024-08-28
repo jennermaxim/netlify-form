@@ -1,30 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <link rel="shortcut icon" href="favicon.png" type="image/png" />
+    <title>INNOVATION & ENTREPRENEURSHIP MANAGEMENT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  <link rel="shortcut icon" href="favicon.png" type="image/png" />
-  <title>CUU JAVASCRIPT CLUB</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <center>
-    <img src="favicon.png" alt="" width="100px" srcset="">
-    <h1>CUU JAVASCRIPT CLUB</h1>
-    <form name="Names" netlify>
-      <input type="text" name="name" placeholder="Name" required autofocus />
-      <input type="email" name="email" placeholder="Email" required />
-      <textarea name="expectation" id="" cols="30" rows="5"
-        placeholder="What's your expectations from the CUU JavaScript Club" required></textarea>
-      <button type="submit">Submit</button>
-    </form>
-    <div class="developer">
-      Developer:
-      <a href="http://github.com/jennermaxim" target="_blank" rel="noopener noreferrer">Jenner Maxim</a>
-    </div>
-  </center>
-</body>
-
+  <body>
+    <center>
+      <div class="main">
+        <img src="favicon.png" alt="" width="100px" srcset="" />
+        <h3>INNOVATION & ENTREPRENEURSHIP MANAGEMENT</h3>
+        <form name="InnovationOffice" netlify>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            required
+            autofocus
+          />
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="text" name="StudentID" placeholder="Student ID" />
+          <select name="Faculty" id="">
+            <option value="">- Select your Faculty -</option>
+            <option value="Faculty of Science & Technology">
+              Faculty of Science & Technology
+            </option>
+            <option value="Faculty of Law">Faculty of Law</option>
+            <option value="Faculty of Socio-economic Sciences">
+              Faculty of Socio-economic Sciences
+            </option>
+            <option value="Faculty of Business and Management">
+              Faculty of Business and Management
+            </option>
+          </select>
+          <input type="text" name="Course" placeholder="Course" />
+          <select name="Gender" id="">
+            <option value="">- Select your Gender -</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+          <input type="text" name="Contact" placeholder="Phone Number" />
+          <div class="interested">
+            <div class="innovation">
+              <input type="radio" name="InterestedIn" value="Innovation" />
+              <label for="InterestedIn"> Innovation </label>
+            </div>
+            <div class="entrepreneurship">
+              <input
+                type="radio"
+                name="InterestedIn"
+                value="Entrepreneurship"
+              />
+              <label for="InterestedIn"> Entrepreneurship </label>
+            </div>
+          </div>
+          <div style="text-align: left" class="platform">
+            <label for="Enrolled">
+              Would you like to be enrolled to the Entrepreneurship learning
+              platform?</label
+            >
+            <br />
+            <input
+              type="checkbox"
+              name="EnrolledToPlatform"
+              id=""
+              value="yes"
+            />
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <!-- <div class="developer">
+          Developer:
+          <a
+            href="http://github.com/jennermaxim"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Jenner Maxim</a
+          >
+        </div> -->
+      </div>
+    </center>
+  </body>
 </html>

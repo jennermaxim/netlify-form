@@ -1,34 +1,48 @@
-body{
-    background-color: #d1d3d4;
+body {
+  background-color: #ddd;
+}
+
+.main {
+  background-color: #fff;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 20px;
+  border: 1px solid #ddd;
 }
 form {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 500px;
-  background-color: #1d3465;
-  border-radius: 10px;
+  /* background-color: #1d3465; */
+  /* border-radius: 10px; */
+  /* border: 1px solid #eeeeee; */
 }
 
 form > * {
   padding: 10px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+form .interested{
+  display: flex;
+  justify-content: space-between;
+}
+
+form button {
+  background-color: rgb(0, 0, 85);
+  color: #fff;
+  cursor: pointer;
   border: none;
 }
 
-form button{
-    background-color: blue;
-    color: #fff;
-    cursor: pointer;
-    border: none;
+form button:hover {
+  background-color: rgb(0, 0, 255);
 }
 
-
-form button:hover{
-    background-color: rgb(24, 24, 153);
-}
-
-.developer{
+.developer {
   margin-top: 20px;
 }
