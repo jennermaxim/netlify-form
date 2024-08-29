@@ -31,7 +31,7 @@ form select{
   padding: 10px;
 }
 
-form .interested{
+form .interested .option{
   display: flex;
   justify-content: space-between;
 }
