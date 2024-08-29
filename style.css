@@ -36,6 +36,11 @@ form .interested{
   justify-content: space-between;
 }
 
+.main form .platform .yesno{
+  display: flex;
+  justify-content: space-around;
+}
+
 form button {
   background-color: rgb(0, 0, 165);
   color: #fff;

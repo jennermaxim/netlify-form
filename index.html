@@ -69,15 +69,24 @@
           <div style="text-align: left" class="platform">
             <label for="Enrolled">
               Would you like to be enrolled to the Entrepreneurship learning
-              platform?</label
+              platform ?</label
             >
             <br />
-            <input
-              type="checkbox"
-              name="EnrolledToPlatform"
-              id=""
-              value="yes"
-            />
+            <div class="yesno">
+              <div class="yes">
+                <label for="Yes">Yes</label>
+                <input type="radio" name="EnrolledToPlatform" value="Yes" />
+              </div>
+              <div class="no">
+                <label for="No">No</label>
+                <input
+                  type="radio"
+                  name="EnrolledToPlatform"
+                  id=""
+                  value="No"
+                />
+              </div>
+            </div>
           </div>
           <button type="submit">Submit</button>
         </form>
